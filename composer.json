@@ -1,0 +1,29 @@
+{
+  "name": "CodeProject/TDD",
+  "description": "Project TDD.",
+  "keywords": [
+    "framework",
+    "laravel",
+    "TDD",
+    "Teste"
+  ],
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Luis Fernando Serra",
+      "email": "lfserrra@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodeEducation\\Cart\\": "src/Cart/"
+    }
+  }
+}
